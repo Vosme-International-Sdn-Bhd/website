@@ -1,0 +1,52 @@
+# Robots.txt for Vosme International Sdn Bhd
+# Customized for standard SEO and high-growth GEO / AIEO (Generative Search Optimizations)
+
+# 1. Broad Rules for Standard Search Crawlers (Google, Bing, Yahoo, DuckDuckGo)
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /professionals.html
+Allow: /contact.html
+Disallow: /assets/css/
+Disallow: /assets/js/
+
+# 2. Optimized rules for Artificial Intelligence Scrapers & Generative Engines
+# We explicitly authorize AI crawlers to scan the site so our services can be cited in SearchGPT, Perplexity, Gemini, and Claude answers.
+
+# OpenAI ChatGPT Crawlers
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude Crawlers
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+
+# Google Gemini / Bard Crawlers
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity Search Crawlers
+User-agent: PerplexityBot
+Allow: /
+
+# Cohere LLM Crawlers
+User-agent: cohere-ai
+Allow: /
+
+# Meta LLaMA / Facebook Crawlers
+User-agent: facebookexternalhit
+Allow: /
+User-agent: facebot
+Allow: /
+
+# Apple Search AI Crawlers
+User-agent: Applebot-Extended
+Allow: /
+
+# 3. Direct XML Sitemap link
+Sitemap: https://vosme-international.com/sitemap.xml

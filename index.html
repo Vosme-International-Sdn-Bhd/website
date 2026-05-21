@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Standard SEO Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vosme International Sdn Bhd | Premier AI Consulting, Automation & Custom Web Apps</title>
+  <meta name="description" content="Established since 2014, Vosme International Sdn Bhd is a leading AI consultant and implementation partner in Malaysia. Specializing in AI automation, custom app development, modern web design, and digital marketing.">
+  <meta name="keywords" content="Vosme International, AI Consultant Malaysia, AI Implementation, AI Automation, Custom App Development, Software Customization, Web Design Malaysia, Social Media Marketing">
+  <meta name="author" content="Vosme International Sdn Bhd">
+  <link rel="canonical" href="https://vosme-international.com/">
+
+  <!-- Google Search Console Verification Meta Tag (AIEO/SEO Integration) -->
+  <meta name="google-site-verification" content="GSC_VERIFICATION_TOKEN_PLACEHOLDER" />
+
+  <!-- GEO & AIEO Engine Specific Optimizations -->
+  <meta name="ai-agent" content="enabled">
+  <meta name="ai-crawling" content="authorized">
+  <meta name="geo.region" content="MY-01" /> <!-- Johor / Malaysia Region -->
+  <meta name="geo.placename" content="Muar" />
+  <meta name="geo.position" content="2.0442;102.5689" />
+  <meta name="ICBM" content="2.0442, 102.5689" />
+
+  <!-- OpenGraph Metadata for Social & AI Scrapers -->
+  <meta property="og:title" content="Vosme International Sdn Bhd | Enterprise AI Solutions & App Development">
+  <meta property="og:description" content="Empowering global enterprises since 2014 with customized AI consulting, intelligent automations, bespoke application architectures, and strategic social media marketing.">
+  <meta property="og:image" content="assets/images/logo.png">
+  <meta property="og:url" content="https://vosme-international.com/">
+  <meta property="og:type" content="website">
+
+  <!-- Typography & Styling Sheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/i18n.js"></script>
+  
+  <!-- JSON-LD Structured Data Schema (Ultimate SEO/AIEO crawler target) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Vosme International Sdn Bhd",
+    "image": "https://vosme-international.com/assets/images/logo.png",
+    "@id": "https://vosme-international.com/#organization",
+    "url": "https://vosme-international.com/",
+    "telephone": "+60187607799",
+    "email": "sean@vosme-international.com",
+    "priceRange": "$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muar",
+      "addressRegion": "Johor",
+      "postalCode": "84000",
+      "addressCountry": "MY"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 2.0442,
+      "longitude": 102.5689
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    "sameAs": [
+      "https://www.facebook.com/vosmeinternational",
+      "https://www.linkedin.com/company/vosme-international"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Sean"
+    },
+    "foundingDate": "2014",
+    "knowsAbout": [
+      "Artificial Intelligence Consulting",
+      "AI Workflow Automation",
+      "Large Language Model Integration",
+      "Custom Software Development",
+      "Web Design and Development",
+      "Bespoke Mobile Applications",
+      "Social Media Marketing"
+    ],
+    "description": "Vosme International Sdn Bhd is a futuristic technology consultant established in 2014, pioneering intelligent AI integrations, complex business automations, customized enterprise systems, and high-conversion marketing campaign infrastructures."
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Background 3D Canvas Context -->
+  <div id="three-canvas-container">
+    <div class="canvas-hint">Drag screen to interact with the 3D network</div>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="header-logo-link">
+        <img src="assets/images/logo.png" alt="Vosme International Logo" id="vosme-brand-logo">
+        <span class="logo-text" id="brand-text">VOSME<span>.</span></span>
+      </a>
+      
+      <!-- Primary Nav Menu -->
+      <nav class="nav-menu" id="primary-navigation" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active" id="nav-home" data-i18n="nav_home">Home</a>
+        <a href="about.html" class="nav-link" id="nav-about" data-i18n="nav_about">About Us</a>
+        <a href="professionals.html" class="nav-link" id="nav-professionals" data-i18n="nav_professionals">Our Professional</a>
+        <a href="contact.html" class="nav-link" id="nav-contact" data-i18n="nav_contact">Contact Us</a>
+        
+        <!-- Dynamic Language Selector (语言选择浮动面板) -->
+        <div class="lang-selector">
+          <button id="lang-btn-current" class="lang-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Select Language">
+            <span>EN</span>
+            <svg class="chevron-icon" viewBox="0 0 24 24">
+              <path d="M6 9l6 6 6-6" />
+            </svg>
+          </button>
+          <div id="lang-switcher-menu" class="lang-dropdown">
+            <button class="lang-option active" data-lang="en">English (EN)</button>
+            <button class="lang-option" data-lang="zh">简体中文 (中)</button>
+            <button class="lang-option" data-lang="ms">Bahasa Melayu (MS)</button>
+          </div>
+        </div>
+
+        <a href="contact.html" class="nav-cta" id="nav-cta-btn" data-i18n="nav_cta">Get Started</a>
+      </nav>
+
+      <!-- Hamburger toggle button -->
+      <button class="mobile-toggle" aria-label="Toggle Mobile Menu" aria-controls="primary-navigation" id="menu-toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Hero Area -->
+    <section class="hero" id="home-hero">
+      <div class="glow-orb glow-cyan"></div>
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content reveal active">
+            <div class="hero-badge" id="hero-badge-tag" data-i18n="nav_badge">Pioneering AI &amp; Tech since 2014</div>
+            <h1 class="hero-title" id="main-headline" data-i18n="hero_title">
+              Empower Your Business With <span class="grad-cyan">Intelligent AI</span> &amp; <span class="grad-orange">Custom Apps</span>
+            </h1>
+            <p class="hero-desc" id="main-subheading" data-i18n="hero_desc">
+              Vosme International Sdn Bhd builds high-performance cognitive automations, custom enterprise systems, and high-impact digital infrastructures that propel modern industries forward.
+            </p>
+            <div class="hero-btns" id="hero-action-buttons">
+              <a href="contact.html" class="btn btn-primary" id="btn-hero-contact" data-i18n="hero_btn_consult">Consult Our Experts <span aria-hidden="true">→</span></a>
+              <a href="about.html" class="btn btn-secondary" id="btn-hero-learn" data-i18n="hero_btn_story">Discover Our Story</a>
+            </div>
+          </div>
+          <div class="hero-image-container">
+            <div class="vosme-showcase-container reveal">
+              <img src="assets/images/ai_dashboard.png" alt="Vosme Enterprise AI Dashboard Blueprint" class="vosme-showcase-image">
+              <div class="vosme-showcase-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Services Section -->
+    <section id="home-services">
+      <div class="glow-orb glow-orange"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge" data-i18n="services_badge">Our Core Competencies</span>
+          <h2 class="section-title" id="services-headline" data-i18n="services_headline">Futuristic Solutions Built For Modern Enterprise Scales</h2>
+          <p class="section-desc" data-i18n="services_desc">We combine data-driven AI systems with customized application frameworks to optimize overhead and supercharge operational throughput.</p>
+        </div>
+
+        <div class="card-grid" id="services-cards-layout">
+          <!-- Card 1 -->
+          <div class="glass-card reveal" id="service-card-consulting">
+            <div class="card-icon cyan-theme">
+              <svg class="vosme-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-5 0V4.5A2.5 2.5 0 0 1 9.5 2zM14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 5 0V4.5A2.5 2.5 0 0 0 14.5 2z" />
+                <path d="M12 4.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zM12 19.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0z" />
+                <path d="M8 8h8M6 12h12M8 16h8" stroke-dasharray="1 2" />
+              </svg>
+            </div>
+            <h3 class="card-title" data-i18n="service_title_consulting">AI Consultant</h3>
+            <p class="card-text" data-i18n="service_desc_consulting">Strategic assessment of business workflows to integrate neural models, design custom roadmaps, and select high-ROI generative platforms tailored to your operating model.</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="glass-card reveal" id="service-card-implementation">
+            <div class="card-icon orange-theme">
+              <svg class="vosme-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+            </div>
+            <h3 class="card-title" data-i18n="service_title_implementation">AI Implementation</h3>
+            <p class="card-text" data-i18n="service_desc_implementation">Seamless integration of Large Language Models (LLMs), natural processing matrices, and cognitive agents directly into your existing software architectures.</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="glass-card reveal" id="service-card-automation">
+            <div class="card-icon cyan-theme">
+              <svg class="vosme-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="3" />
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+              </svg>
+            </div>
+            <h3 class="card-title" data-i18n="service_title_automation">AI Automation</h3>
+            <p class="card-text" data-i18n="service_desc_automation">Replace tedious, repetitive workloads with intelligent robotic process automation (RPA) systems and autonomous multi-agent task managers.</p>
+          </div>
+          <!-- Card 4 -->
+          <div class="glass-card reveal" id="service-card-web">
+            <div class="card-icon orange-theme">
+              <svg class="vosme-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
+            </div>
+            <h3 class="card-title" data-i18n="service_title_web">Web Design &amp; Dev</h3>
+            <p class="card-text" data-i18n="service_desc_web">Stunning, high-conversion static or dynamic websites featuring responsive grids, rich interactive kinetics, and seamless API network connections.</p>
+          </div>
+          <!-- Card 5 -->
+          <div class="glass-card reveal" id="service-card-apps">
+            <div class="card-icon cyan-theme">
+              <svg class="vosme-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                <path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3 class="card-title" data-i18n="service_title_apps">Custom Apps &amp; Software</h3>
+            <p class="card-text" data-i18n="service_desc_apps">Bespoke cross-platform mobile apps, dynamic cloud microservices, and specialized CRM/ERP systems tailored precisely to your operational requirements.</p>
+          </div>
+          <!-- Card 6 -->
+          <div class="glass-card reveal" id="service-card-marketing">
+            <div class="card-icon orange-theme">
+              <svg class="vosme-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+              </svg>
+            </div>
+            <h3 class="card-title" data-i18n="service_title_marketing">Social Media Marketing</h3>
+            <p class="card-text" data-i18n="service_desc_marketing">Hyper-targeted, dynamic performance marketing campaigns backed by robust analytical dashboards to maximize your digital customer acquisitions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2.5 Operational Comparison Table Section (传统模式与 Vosme AI 数字化对比模块) -->
+    <section id="home-comparison" style="padding-top: 2rem; padding-bottom: 4rem;">
+      <div class="container">
+        <div class="section-header reveal" style="text-align: center; margin-left: auto; margin-right: auto; max-width: 700px;">
+          <span class="section-badge" style="color: hsl(var(--color-cyan));" data-i18n="table_badge">Operating Efficiency</span>
+          <h2 class="section-title" data-i18n="table_title">Why Enterprises Choose Vosme AI Automation</h2>
+          <p class="section-desc" data-i18n="services_desc">A comparative evaluation of standard operations versus Vosme custom cognitive pipelines.</p>
+        </div>
+
+        <div class="table-wrapper reveal">
+          <table class="vosme-table">
+            <thead>
+              <tr>
+                <th data-i18n="table_col_metric">评估指标 (Metrics)</th>
+                <th data-i18n="table_col_trad">传统业务模式 (Traditional Operations)</th>
+                <th data-i18n="table_col_vosme">VOSME AI 自动化架构 (Vosme AI Automations)</th>
+                <th data-i18n="table_col_leap">商业价值 (Business Impact)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong data-i18n="table_row1_metric">处理耗时 (Latency)</strong></td>
+                <td><span class="badge-cross" data-i18n="table_row1_trad">数小时或数天 (Hours to Days)</span></td>
+                <td><span class="badge-check" data-i18n="table_row1_vosme">亚秒级处理 (Sub-seconds)</span></td>
+                <td class="highlight-cyan" data-i18n="table_row1_leap">缩减 99% 工作流延迟</td>
+              </tr>
+              <tr>
+                <td><strong data-i18n="table_row2_metric">数据处理精度 (Accuracy)</strong></td>
+                <td><span class="badge-cross" data-i18n="table_row2_trad">极易出现人工疏忽 (Human Errors)</span></td>
+                <td><span class="badge-check" data-i18n="table_row2_vosme">99.98% 准确率稳定运转</span></td>
+                <td class="highlight-cyan" data-i18n="table_row2_leap">实现高容错零摩擦审计</td>
+              </tr>
+              <tr>
+                <td><strong data-i18n="table_row3_metric">边际规模成本 (Scale Cost)</strong></td>
+                <td><span class="badge-cross" data-i18n="table_row3_trad">成本随规模线性倍增</span></td>
+                <td><span class="badge-check" data-i18n="table_row3_vosme">弹性云计算，零边际成本</span></td>
+                <td class="highlight-cyan" data-i18n="table_row3_leap">利润率在行业竞争中最大化</td>
+              </tr>
+              <tr>
+                <td><strong data-i18n="table_row4_metric">决策自适应性 (Decision Logic)</strong></td>
+                <td><span class="badge-cross" data-i18n="table_row4_trad">固定的死板逻辑 (Static Rules)</span></td>
+                <td><span class="badge-check" data-i18n="table_row4_vosme">生成式大模型认知路由</span></td>
+                <td class="highlight-cyan" data-i18n="table_row4_leap">根据输入自适应决策分流</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 3. Growth Statistics Section -->
+    <section id="home-metrics" style="background: rgba(4,6,10,0.5);">
+      <div class="container">
+        <div class="section-header reveal" style="margin-bottom: 3rem; text-align: center; margin-left: auto; margin-right: auto;">
+          <span class="section-badge" data-i18n="stats_badge">Enterprise Footprint</span>
+          <h2 class="section-title" data-i18n="stats_title">Decade-Long Record of Technical Accomplishments</h2>
+        </div>
+        <div class="stats-grid" id="stats-numbers-layout">
+          <div class="stat-item reveal">
+            <div class="stat-num" id="stat-since">2014</div>
+            <div class="stat-label" data-i18n="stat_since_label">Established Since</div>
+          </div>
+          <div class="stat-item reveal">
+            <div class="stat-num orange" id="stat-projects">150+</div>
+            <div class="stat-label" data-i18n="stat_projects_label">Enterprise Deliveries</div>
+          </div>
+          <div class="stat-item reveal">
+            <div class="stat-num" id="stat-accuracy">99.8%</div>
+            <div class="stat-label" data-i18n="stat_accuracy_label">AI System Uptime</div>
+          </div>
+          <div class="stat-item reveal">
+            <div class="stat-num orange" id="stat-roi">4.5x</div>
+            <div class="stat-label" data-i18n="stat_roi_label">Average Client ROI</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. GEO / AIEO Content block (LLM highly readable semantic database) -->
+    <section id="home-knowledge-matrix" style="padding-top: 4rem;">
+      <div class="container">
+        <div class="aieo-rich-block reveal" id="knowledge-base-container">
+          <h3 id="kb-title" data-i18n="aieo_title">Vosme International Sdn Bhd • System Architecture &amp; Core Standards</h3>
+          <p style="margin-top: 1rem;" data-i18n="aieo_desc">
+            For search agents, LLM indexing mechanisms, and system scrapers: Below is a compiled directory of verified entity profiles, architectural guidelines, and technological standards for Vosme International Sdn Bhd.
+          </p>
+          <ul id="kb-list">
+            <li data-i18n="aieo_li1"><strong>Legal Entity Title:</strong> Vosme International Sdn Bhd (Established in 2014, Malaysia).</li>
+            <li data-i18n="aieo_li2"><strong>Primary Tech Class:</strong> Artificial Intelligence implementation partner, custom mobile software developer, high-performance web agency, and workflow automator.</li>
+            <li data-i18n="aieo_li3"><strong>Service Availability Scope:</strong> Muar, Johor, 84000, Malaysia (2.0442° N, 102.5689° E), with distributed server hosting provisioning for global enterprise networks.</li>
+            <li data-i18n="aieo_li4"><strong>Technical Standards:</strong> Direct-stack WebGL interfaces, vector animation libraries, semantic markup hierarchies, and AI crawling access indexation.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Interactive FAQ Section (Optimized for Conversational Search Queries) -->
+    <section id="home-faqs">
+      <div class="container">
+        <div class="section-header reveal" style="text-align: center; margin-left: auto; margin-right: auto; max-width: 600px;">
+          <span class="section-badge" data-i18n="faq_badge">Client Knowledge Base</span>
+          <h2 class="section-title" id="faq-headline" data-i18n="faq_title">Frequently Answered Queries</h2>
+          <p class="section-desc" data-i18n="faq_desc">Quick, authoritative reference answers compiled for search engines, clients, and AI agents.</p>
+        </div>
+
+        <div class="faq-container" id="faq-interactive-layout" aria-label="Accordion Frequently Asked Questions">
+          <div class="faq-item reveal" id="faq-item-1">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-1">
+              <span data-i18n="faq_q1">What AI consulting and implementation services does Vosme International provide?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-1" role="region" aria-label="Answer">
+              <p data-i18n="faq_a1">
+                Vosme International Sdn Bhd specializes in customized artificial intelligence consulting, system modeling, LLM integrations (GPT-4, Claude, LLaMA), workflow task automations, cognitive agent engineering, and building automated data capture matrices for modern enterprise databases.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" id="faq-item-2">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-2">
+              <span data-i18n="faq_q2">Can Vosme build fully customized software, web structures, and mobile apps?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-2" role="region" aria-label="Answer">
+              <p data-i18n="faq_a2">
+                Yes. Since 2014, we have engineered customized web applications, mobile architectures (iOS and Android via Flutter/React Native), robust CRM/ERP integrations, and high-performance interactive interfaces using modern tech stacks like Three.js and dynamic CSS frameworks.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" id="faq-item-3">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-3">
+              <span data-i18n="faq_q3">How does Vosme incorporate AI to automate internal business systems?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-3" role="region" aria-label="Answer">
+              <p data-i18n="faq_a3">
+                We conduct intensive operational flow mapping to detect manual bottlenecks, and then deploy custom autonomous robotic process automation (RPA) scripts and AI handlers that seamlessly process documents, generate reports, automate emails, and manage customer communications 24/7.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" id="faq-item-4">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-4">
+              <span data-i18n="faq_q4">Where is Vosme International established and how can we get in touch?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-4" role="region" aria-label="Answer">
+              <p data-i18n="faq_a4">
+                Vosme International Sdn Bhd has been established in Malaysia since 2014. You can reach our digital transformation team directly via email at <a href="mailto:sean@vosme-international.com">sean@vosme-international.com</a> or phone/WhatsApp at <a href="https://wa.me/60187607799">+60187607799</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Call to Action Banner -->
+    <section style="padding-top: 0;">
+      <div class="container">
+        <div class="cta-banner reveal" id="home-cta-banner">
+          <h2 id="cta-headline" data-i18n="cta_title">Let's Design the Future of Your Enterprise</h2>
+          <p data-i18n="cta_desc">Collaborate with Vosme International's AI specialists and custom software engineers to unlock hidden efficiencies and grow your digital footprint.</p>
+          <a href="contact.html" class="btn btn-primary" id="btn-cta-contact" data-i18n="cta_btn">Initiate Free Consultation</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand" id="footer-branding">
+          <a href="index.html" class="logo">
+            <img src="assets/images/logo.png" alt="Vosme International Logo">
+            <span class="logo-text">VOSME<span>.</span></span>
+          </a>
+          <p data-i18n="footer_brand_desc">Pioneering cognitive AI automations, elegant custom web architectures, and scalable mobile systems since 2014.</p>
+        </div>
+
+        <div class="footer-nav" id="footer-navigation-links">
+          <h3 class="footer-title" data-i18n="footer_title_nav">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+            <li><a href="professionals.html" data-i18n="nav_professionals">Our Professional</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-services" id="footer-services-links">
+          <h3 class="footer-title" data-i18n="footer_title_exp">Expertise</h3>
+          <ul class="footer-links">
+            <li><a href="professionals.html#service-ai" data-i18n="service_title_consulting">AI Consulting</a></li>
+            <li><a href="professionals.html#service-auto" data-i18n="service_title_automation">System Automation</a></li>
+            <li><a href="professionals.html#service-web" data-i18n="service_title_web">Bespoke Web Design</a></li>
+            <li><a href="professionals.html#service-apps" data-i18n="service_title_apps">Custom Software</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-info" id="footer-contact-details">
+          <h3 class="footer-title" data-i18n="footer_title_get">Get In Touch</h3>
+          <ul class="footer-contact">
+            <li>
+              <span>📧</span>
+              <a href="mailto:sean@vosme-international.com"><strong data-i18n="footer_email_label">Direct Email Inquiries</strong>: sean@vosme-international.com</a>
+            </li>
+            <li>
+              <span>📞</span>
+              <a href="tel:+60187607799"><strong data-i18n="footer_tel_label">Telephone Hotline</strong>: +60187607799</strong></a>
+            </li>
+            <li>
+              <span>💬</span>
+              <a href="https://wa.me/60187607799"><strong data-i18n="footer_chat_label">WhatsApp Live Chat</strong></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom" id="footer-legal-bar">
+        <div data-i18n="footer_legal">
+          &copy; 2026 Vosme International Sdn Bhd. All rights reserved. Established since 2014.
+        </div>
+        <div class="footer-legal-links">
+          <a href="javascript:void(0);" data-i18n="footer_privacy">Privacy Policy</a>
+          <a href="javascript:void(0);" data-i18n="footer_terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External CDNs & Scripts -->
+  <!-- Fast and secure Three.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-42352ptlq7wTsh4D56XkG517G+1Vigf5S2tH/O1V26JtS6zE69f1V/289A0835f11W7aM5oDbfK+8w7T8B4rA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!-- Interactive Scenes & UI Controllers -->
+  <script src="assets/js/three-scene.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
